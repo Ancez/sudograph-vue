@@ -1,5 +1,27 @@
 {
+    "name": "sudograph-vue",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [],
     "scripts": {
-        "build": "cd canisters/playground && npm install && npm run build && cd ../frontend && npm install && npm run build"
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@dfinity/agent": "0.8.8",
+        "assert": "2.0.0",
+        "buffer": "6.0.3",
+        "events": "3.3.0",
+        "html-webpack-plugin": "5.3.1",
+        "process": "0.11.10",
+        "stream-browserify": "3.0.0",
+        "util": "0.12.3",
+        "vue-loader": "^15.9.7",
+        "vue-template-compiler": "^2.6.14",
+        "webpack": "5.24.4",
+        "webpack-cli": "4.5.0"
+    },
+    "dependencies": {
+        "sudograph": "^0.0.0",
+        "vue": "^2.6.14"
     }
 }
